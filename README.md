@@ -1,48 +1,27 @@
-# \# ue19-lab-05
+# ue19-lab-05
 
-# 
+Petite application Python qui affiche une blague de programmation en interrogeant l'API publique JokeAPI.
 
-# Petite application Python qui affiche une blague de programmation
+## Fonctionnalités
 
-# en interrogeant l'API publique JokeAPI.
+- Appel à l'API https://v2.jokeapi.dev avec la librairie `requests`
+- Affichage d'une blague dans le terminal
 
-# 
+## Installation
 
-# \## Fonctionnalités
+```
+pip install -r requirements.txt
+```
 
-# \- Appel à l'API https://v2.jokeapi.dev avec la librairie `requests`
+## Lancement
 
-# \- Affichage d'une blague dans le terminal
+```
+python app.py
+```
 
-# 
+## Avec Docker
 
-# \## Installation
-
-# ```
-
-# pip install -r requirements.txt
-
-# ```
-
-# 
-
-# \## Lancement
-
-# ```
-
-# python app.py
-
-# ```
-
-# 
-
-# \## Avec Docker
-
-# ```
-
-# docker build -t ue19-lab-05 .
-
-# docker run --rm ue19-lab-05
-
-# ```
-
+```
+docker build -t ue19-lab-05 .
+docker run --rm ue19-lab-05
+```
